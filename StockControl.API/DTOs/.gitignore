@@ -1,0 +1,16 @@
+# Configurações sensíveis não vai subir
+**/appsettings.json
+**/appsettings.Development.json
+
+# Build
+**/bin/
+**/obj/
+**/.vs/
+
+# Node
+**/node_modules/
+**/dist/
+
+# Outros
+*.user
+.DS_Store
