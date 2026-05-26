@@ -26,7 +26,7 @@ Sistema web completo de controle de estoque com autenticação JWT, CRUD de prod
 ##  Funcionalidades previstas
 
 - [x] Autenticação com JWT (registro e login com senha criptografada)
-- [ ] CRUD completo de produtos
+- [x] CRUD completo de produtos
 - [ ] Movimentação de estoque (entradas e saídas)
 - [ ] Busca de produtos em tempo real
 - [ ] Gráfico de produtos mais vendidos no mês
