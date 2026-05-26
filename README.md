@@ -2,7 +2,7 @@
 
 Sistema web completo de controle de estoque com autenticação JWT, CRUD de produtos, movimentação de estoque, gráficos e exportação de PDF.
 
->  **Projeto em desenvolvimento** — atualmente com as Fases 1, 2 e 3 concluídas (estrutura, banco de dados e autenticação JWT).
+>  **Projeto em desenvolvimento** — atualmente com as Fases 1, 2, 3 e 4 concluídas (estrutura, banco de dados, autenticação JWT e CRUD competo dos Produtos).
 
 ---
 
