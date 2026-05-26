@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# .NET build output
+**/bin/
+**/obj/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

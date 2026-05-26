@@ -28,6 +28,11 @@ public class AppDbContext : DbContext
             .WithMany(p => p.Movements)
             .HasForeignKey(m => m.ProductId);
 
+        modelBuilder.Entity<StockMovement>()
+            .Property(m => m.Type)
+            .HasConversion<string>()
+            .HasMaxLength(20);
+
         // Preço com precisão monetária
         modelBuilder.Entity<Product>()
             .Property(p => p.Price)
