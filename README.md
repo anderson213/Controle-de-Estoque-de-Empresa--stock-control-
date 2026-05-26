@@ -1,12 +1,12 @@
-# 📦 Stock Control — Sistema de Controle de Estoque
+#  Stock Control — Sistema de Controle de Estoque
 
 Sistema web completo de controle de estoque com autenticação JWT, CRUD de produtos, movimentação de estoque, gráficos e exportação de PDF.
 
-> ⚠️ **Projeto em desenvolvimento** — atualmente com as Fases 1, 2 e 3 concluídas (estrutura, banco de dados e autenticação JWT).
+>  **Projeto em desenvolvimento** — atualmente com as Fases 1, 2 e 3 concluídas (estrutura, banco de dados e autenticação JWT).
 
 ---
 
-## 🚀 Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 **Backend**
 - ASP.NET Core 8 Web API
@@ -23,7 +23,7 @@ Sistema web completo de controle de estoque com autenticação JWT, CRUD de prod
 
 ---
 
-## ✅ Funcionalidades previstas
+##  Funcionalidades previstas
 
 - [x] Autenticação com JWT (registro e login com senha criptografada)
 - [ ] CRUD completo de produtos
@@ -34,7 +34,7 @@ Sistema web completo de controle de estoque com autenticação JWT, CRUD de prod
 
 ---
 
-## 🛠️ Pré-requisitos
+##  Pré-requisitos
 
 Antes de rodar o projeto, você precisa ter instalado:
 
@@ -45,7 +45,7 @@ Antes de rodar o projeto, você precisa ter instalado:
 
 ---
 
-## ⚙️ Como configurar e rodar
+## Como configurar e rodar
 
 ### 1. Clone o repositório
 
@@ -119,7 +119,7 @@ O frontend estará disponível em `http://localhost:5173`
 
 ---
 
-## 🗂️ Estrutura do projeto
+## Estrutura do projeto
 
 ```
 StockControl/
@@ -137,12 +137,12 @@ StockControl/
 
 ---
 
-## 📡 Endpoints disponíveis
+## Endpoints disponíveis
 
 | Método | Rota | Descrição | Auth |
 |--------|------|-----------|------|
-| POST | `/api/Auth/register` | Cadastrar usuário | ❌ |
-| POST | `/api/Auth/login` | Fazer login e receber token JWT | ❌ |
+| POST | `/api/Auth/register` | Cadastrar usuário ||
+| POST | `/api/Auth/login` | Fazer login e receber token JWT ||
 
 > Novos endpoints serão adicionados nas próximas fases do desenvolvimento.
 
